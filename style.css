@@ -1,0 +1,231 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #EAEAEA;
+    line-height: 1.6;
+}
+
+.header{
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    padding: 2vh;
+    z-index: 10;
+    top: 2vh;
+}
+.nav-p ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 30px;
+    top: 5vh;
+    margin-left: 250px;
+}
+
+.nav-p ul li a {
+    display: flex;
+    text-decoration: none;
+    right: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-p ul li a:hover {
+    color: #fb0000;
+}
+
+.img1{
+    width: 42%; 
+    height: 120vh;
+    position: absolute;
+    right: 10%;
+    top: 0vh; 
+}
+
+.zona{
+    position: absolute;
+    left:8%;
+    top: 18%;
+}
+
+.titulo{
+   font-size: 8vh;
+}
+
+.zona2{
+    position: absolute;
+    left: 12%;
+    top: 48%;
+}
+
+.espacio{
+    background-color: #1d1d1d;
+    position: absolute;
+    width: 100%;
+    padding: 2vh;
+    z-index: 10;
+    top: 119vh;
+}
+
+
+
+
+
+.btn{
+    clip-path:polygon();
+    object-fit: cover;
+    display: flex;
+    height: 72vh;
+    position: absolute;
+    left: 0%;
+    top: 140vh; 
+}
+.img3 {
+    display: flex;
+    height: 72vh;
+    position: absolute;
+    left: 49.7%;
+    top: 70vh;
+    z-index: 1;
+}
+
+.boxeo{
+    position: absolute;
+    left:15%;
+    top: 165%;
+}
+
+.reflejos{
+   font-size: 6vh;
+}
+
+.mma {
+    position: absolute;
+    left: 70%;
+    top: 165%;
+    z-index: 2; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.sombra {
+   font-size: 6vh;
+  
+}
+
+
+.motivacion {
+    text-align: center;
+    margin-top: 230vh;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* ENTRENADORES */
+.entrenadores {
+    padding: 60px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.entrenadores h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff0000;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* GALERÍA */
+.galeria {
+    padding: 60px 20px;
+    background-color: #000;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.galeria-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria-imgs img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* CONTADOR DE LOGROS */
+.logros {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.logro h3 {
+    font-size: 40px;
+    color: #ff0000;
+}
+
+.logro p {
+    font-size: 18px;
+}
+
+.barraf{
+    background-color: #252525;
+    position: absolute;
+    left: 0vh;
+    width: 100%;
+    padding: 2vh;
+    z-index: 10;
+    top: 438vh;}
+
+.footer {
+    background-color: #ffffffc5;
+    text-align: left;
+    padding: 20px;
+    color: #ffffff;
+}
+    
